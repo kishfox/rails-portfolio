@@ -1,0 +1,164 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+  html {
+      padding: 0;
+      margin: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      color: #FFF;
+    }
+    
+    body {
+      background-image: url("https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 100%;
+      min-height: 100vh;
+      position: relative;
+    }
+    
+    .bg-tint {
+      background-color: black;
+      min-height: 100vh;
+      height: 100%;
+      opacity: 0.6;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+    
+    .profile {
+      padding-top: 3vh;
+      text-align: left;
+      color: white;
+    }
+    
+    .profile a {
+      background-color: white;
+      padding-top: 1px;
+      color: black;
+    }
+    
+    .profile a:hover {
+      background-color: silver;
+      text-decoration: none !important;
+    }
+    
+    .profile-pic {
+      max-width: 100%;
+    
+    }
+    
+    #name {
+      font-size: 24px;
+      font-family: 'Orbitron';
+    }
+    
+    #profession {
+      font-weight: Bold;
+      font-family: 'Orbitron';
+    }
+    
+    .greeting {
+      color: white;
+      text-align: left;
+      padding-top: 2%;
+      text-shadow: 2px 2px black;
+      padding-bottom: 55px;
+    }
+    
+  .sideBar{
+    /*rules?*/
+  }
+    
+    .hello {
+      font-size: 72px;
+    }
+    
+    .subtext {
+      font-size: 56px;
+      font-family: 'Orbitron', serif;
+    }
+    
+    .main-content {
+      margin-top: 15px;
+      padding-top: 20px;
+      color: white;
+      text-shadow: 2px 2px black;
+      text-align: center;
+    }
+    
+    .project-img {
+     
+      margin: 15px auto auto 0;
+    }
+    
+    nav {
+      width: 100vw !important;
+      height: 10vh;
+      position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+      opacity: 0.8;
+      margin-bottom: -5px;
+    }
+    
+    nav ul {
+      list-style: none;
+      overflow: hidden;
+    }
+    
+    nav li a:hover {
+      background: #222;
+      text-decoration: none;
+      color: white;
+    }
+    
+    nav li a {
+      background: #444;
+      color: #fff;
+      display: block;
+      float: left;
+      font: 400 13px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      width: 25%;
+    }
+    
+    .contact-chart {
+      opacity: 75%;
+      list-style: none;
+      overflow: hidden;
+    }
+    
+    .contact-chart li a {
+      width: 20%;
+      margin: auto;
+      background: #444;
+      text-decoration: none;
+      color: #fff;
+      display: block;
+      font: 400 13px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    
+    .contact-chart li a:hover {
+      background: #222;
+      text-decoration: none;
+      font-family: "Orbitron";
+      color: white;
+    }
+    .infos {
+        padding-bottom: 6%;
+    }

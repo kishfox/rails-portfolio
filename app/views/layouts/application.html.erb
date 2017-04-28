@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Font Awesome -->
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
   <title>Workspace</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+<div class="bg-tint">
+</div>
+<div class="container">
+  <div class = "row">
+    <div class="col-md-2 sideBar">
+      
+    </div>
+    <div class="col-md-8 content">
+    <%= yield %>
+    </div>
+    <div class="col-md-2 sideBar">
+      
+      
+    </div>
+  </div>
+</div>
 </body>
 </html>
