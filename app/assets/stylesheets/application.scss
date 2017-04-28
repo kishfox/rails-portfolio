@@ -23,15 +23,12 @@
       -moz-box-sizing: border-box;
       box-sizing: border-box;
       color: #FFF;
+      text-align:center;
+      
     }
     
     body {
-      background-image: url("https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      width: 100%;
-      min-height: 100vh;
-      position: relative;
+      background-color:black;
     }
     
     .bg-tint {
@@ -45,12 +42,20 @@
       bottom: 0;
       left: 0;
       z-index: -1;
+      background-image: url("https://static.pexels.com/photos/160107/pexels-photo-160107.jpeg");
+      background-repeat: no-repeat;
+      background-size: 100vw 100vh;
+      width: 100%;
+      min-height: 100vh;
+      position: fixed;
     }
     
     .profile {
-      padding-top: 10vh;
-      text-align: left;
+      padding: 5vh 5px 0 5px;
+      background-color:black;
+      opacity:0.8;
       color: white;
+      min-height:100vh;
     }
     
     .profile a {
@@ -67,7 +72,7 @@
     
     .profile-pic {
       max-width: 25vw;
-    
+      border-radius: 50%;
     }
     
     #name {
